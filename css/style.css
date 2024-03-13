@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.body {
+  background-color: #fff;
+}
+.container{
+  background-color: rgba(0, 0, 0, 0.85);
+
+}
+.content{
+  background-color: #fff;
+ 
+}
+
+header{
+  text-align: center;
+}
+section{
+  text-align: center;
+}
+
+footer{
+  color: #fff;
+}
+.back-ground-img{
+  width: 85%;
+}
+
+.icon{
+  width: 30%;
+}
+
+
+.link-gmail{
+  color: #fff;
+  text-decoration: unset;
+}
+
+
+.nav-item{
+  font-weight: bold;
+}
+
+.fixed-icon {
+  position: fixed; 
+  bottom: 20px; 
+  right: 20px; 
+  width: 60px;
+  height: 60px; 
+  background-color: #fff;
+  color: #fff; 
+  font-size: 24px; 
+  text-align: center; 
+  line-height: 40px; 
+  border-radius: 50%; 
+  text-decoration: none; 
+}
