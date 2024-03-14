@@ -49,16 +49,37 @@ footer{
 }
 
 .fixed-icon {
+  cursor: pointer;
   position: fixed; 
   bottom: 20px; 
   right: 20px; 
   width: 60px;
   height: 60px; 
-  background-color: #fff;
-  color: #fff; 
   font-size: 24px; 
   text-align: center; 
   line-height: 40px; 
-  border-radius: 50%; 
   text-decoration: none; 
+}
+
+#navbar{
+  background-color: #fff;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+
+}
+
+.card-link:hover{
+  opacity: 0.5;
+}
+
+.card{
+  background-color: rgb(156, 211, 211);
+  border-radius: 5%;
+}
+
+.ggreview{
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
 }
